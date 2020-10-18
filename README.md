@@ -2,8 +2,8 @@
 Build you app as docker image using spring boot.
 
 ## Requirements
-Java 1.8+
-Spring boot 2.3
+- Java 1.8+
+- Spring boot 2.3
 
 ## How to build docker image
 mvn spring-boot:build-image
