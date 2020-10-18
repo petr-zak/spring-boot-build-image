@@ -1,5 +1,5 @@
 # spring-boot-build-image
-Build you app as docker image using spring boot.
+How to build your java application as docker image using spring boot.
 
 ## Requirements
 - Java 1.8+
