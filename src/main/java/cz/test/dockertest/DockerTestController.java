@@ -11,9 +11,9 @@ public class DockerTestController {
 
   private static final Logger logger = LoggerFactory.getLogger(DockerTestController.class);
 
-  @GetMapping("/test")
+  @GetMapping("/dockertest")
   public String test() {
-    String message = "Test - current time: " + LocalDateTime.now();
+    String message = "Dockertest - current time: " + LocalDateTime.now();
     logger.info(message);
     return message;
   }
