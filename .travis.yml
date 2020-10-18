@@ -1,0 +1,12 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+notifications:
+  email: true
+
+sudo: false
+
+before_install:
+  - chmod +x mvnw
