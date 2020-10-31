@@ -1,14 +1,17 @@
 # spring-boot-build-image
 How to build your java application as OCI image using Spring Boot 2.3.
 
-## Requirements
-- Java 1.8+
+## Minimal Requirements
+- Java 8
 - Spring Boot 2.3
+- Maven 3
+- Docker 18
 
-## How to build OCI image
-```
-mvn spring-boot:build-image
-```
+## How to build image
+|type|command|
+|----|-------|
+|OCI image|```mvn spring-boot:build-image```|
+|Docker image|```./appBuildDockerImage.sh```|
 
 ## How to run docker container on default port 8080
 ```
