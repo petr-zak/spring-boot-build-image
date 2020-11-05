@@ -1,5 +1,5 @@
 # spring-boot-build-image
-How to build your java application as OCI image using Spring Boot 2.3.
+How to build your java application as OCI or Docker image using Spring Boot 2.3.
 
 ## Minimal Requirements
 - Java 8
